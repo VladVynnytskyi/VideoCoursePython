@@ -22,7 +22,7 @@ nums.remove(54)              #delete element in list (54)
 print(nums.count(34))                #скільки елементів у списку з 34
 print(len(nums))                    #скільки елементів у списку    
 
-
+    
 nums.clear()                #очищає список
 print(nums) 
 

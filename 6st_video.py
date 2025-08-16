@@ -17,6 +17,7 @@ for i in word:
 
 #cikle while
 
+
 i = 0
 
 while i < 7:

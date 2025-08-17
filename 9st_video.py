@@ -20,3 +20,12 @@ print('\n\n\n\n')
 
 for el in data:
     print(el)
+
+print('\n\n')
+nums = [3, 5, (3, 6)]       #в масиві може бути кортеж
+
+num = [4, 9]
+
+number = tuple(num)     #перетворення в кортеж
+
+print(number)

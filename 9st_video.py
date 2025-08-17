@@ -17,3 +17,6 @@ print(info)
 print(infor)
 
 print('\n\n\n\n')
+
+for el in data:
+    print(el)

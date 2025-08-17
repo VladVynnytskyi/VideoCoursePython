@@ -15,3 +15,5 @@ infor = 2,              #це теж вже кортеж
 
 print(info)
 print(infor)
+
+print('\n\n\n\n')

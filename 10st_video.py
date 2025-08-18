@@ -14,5 +14,9 @@ person1 = dict(name = 'alex', age = 16)           #так теж можна за
 
 print(person1['age'])
 
-for i in person1:
-    print(i)
+print(person.items)         #це там де ключі і значення
+
+
+
+for key in person1:
+    print(key)

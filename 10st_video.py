@@ -14,9 +14,9 @@ person1 = dict(name = 'alex', age = 16)           #так теж можна за
 
 print(person1['age'])
 
-print(person.items)         #це там де ключі і значення
+print(person.items())         #це там де ключі і значення
 
 
 
-for key in person1:
-    print(key)
+for key, values in person.items():
+    print(key, values, sep = ' - ')         #як вивести ключ і аргумент

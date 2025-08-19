@@ -20,3 +20,6 @@ print(person.items())         #це там де ключі і значення
 
 for key, values in person.items():
     print(key, values, sep = ' - ')         #як вивести ключ і аргумент
+
+for el in person.values():
+    print(el)                               #video course 

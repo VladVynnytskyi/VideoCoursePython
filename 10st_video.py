@@ -22,4 +22,4 @@ for key, values in person.items():
     print(key, values, sep = ' - ')         #як вивести ключ і аргумент
 
 for el in person.values():
-    print(el)                               #video course 
+    print(el)                               #video course time code 11:00

@@ -23,3 +23,6 @@ for key, values in person.items():
 
 for el in person.values():
     print(el)                               #video course time code 11:00
+
+for el in person.keys():
+    print(el)                               

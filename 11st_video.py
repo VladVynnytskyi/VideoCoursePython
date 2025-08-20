@@ -8,5 +8,6 @@ data2 = {'Vlad', 'Bob', 'John', 6, True, True, True}        #тут теж мн�
 print(data)
 
 data.pop()          #видаляє останній елемент 
+data.add(5)
 data.clear()        #очищає всю множину 
 #time code 3:44

@@ -9,3 +9,4 @@ print(data)
 
 data.pop()          #видаляє останній елемент 
 data.clear()        #очищає всю множину 
+#time code 3:44

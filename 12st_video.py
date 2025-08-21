@@ -42,7 +42,7 @@ minim = nums1[0]
 def minimal(l):
     minim = l[0]
     for i in l:
-        if i < minim:                 
+        if i < minim:                       #тут розібратися тайм код 18:10
             minim = i
 
 

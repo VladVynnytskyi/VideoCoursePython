@@ -39,10 +39,11 @@ print('\n\n\n\n\n\n\n\n')
 
 nums1 = [1, 2, 3, 55, 32, 3, 1, -2, 0]
 minim = nums1[0]
-
-for i in nums1:
-    if i < minim:
-        minim = i
+def minimal(l):
+    minim = l[0]
+    for i in l:
+        if i < minim:                 
+            minim = i
 
 
 print(minim)

@@ -42,8 +42,24 @@ minim = nums1[0]
 def minimal(l):
     minim = l[0]
     for i in l:
-        if i < minim:                       #тут розібратися тайм код 18:10
+        if i < minim:                       
             minim = i
+    print(minim)
+    return minim
 
 
-print(minim)
+res1 = minimal(nums1)
+
+nums2 = [2, 4, 65, 43, 32 ,-5]
+
+res2 = minimal(nums2)
+
+if res1 > res2 :
+    print(res2)
+else:
+    print(res1)
+
+#lambda function
+
+func = lambda x, y : x * y 
+print(func(2,  3))

@@ -10,7 +10,7 @@ file.write('!!!')
 
 file.close()
 
-file2 = open('data/myfile2.txt', 'w+')        #параметр w видаляє все що попердньо було у файлі і записує все заново типу як оновлює, а параметр 'a' не видаляє а продовжує тобто записує далі а не оновляє
+file2 = open('data/myfile2.txt', 'a+')        #параметр w видаляє все що попердньо було у файлі і записує все заново типу як оновлює, а параметр 'a' не видаляє а продовжує тобто записує далі а не оновляє
 
 file2.write("Hello world")
 file2.write('!!!')
@@ -25,5 +25,21 @@ file2.close()
 
 data = input('Hobby: ')
 
-file3 = open('data/mefile3.txt', 'w+')
-file3.write(data)
+file3 = open('data/mefile3.txt', 'a+')
+file3.write(data + '\n')
+
+file3.close()
+
+
+#створимо програму
+
+
+file3 = open('data/mefile3.txt', 'r')           #'r' це параметр для зчитування
+
+print(file3.read())                             #зчитує все що було в цьому файлі і виводить бо є print
+print(file3.read(15))                           #буде считувати тільки перші 15 символів
+
+for line in file3:
+    print(line)                                 #буде виводити кожен рядок
+
+file3.close()

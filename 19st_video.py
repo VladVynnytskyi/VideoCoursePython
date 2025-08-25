@@ -13,7 +13,7 @@ class build:
     def get_info(self):
         print('Year: ', self.year, ". City: ", self.city, sep=' ')
          
-class school(build):                    #клас
+class school(build):                    #клас school спадковує все що є в класі build
     pass 
 
 

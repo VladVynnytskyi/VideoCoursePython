@@ -15,12 +15,16 @@ class build:
          
 class school(build):                    #клас school спадковує все що є в класі build
     pass 
-
+    #тут можна додавати додаткову характеристику до класу 
+    
 class house(build):                    #клас school спадковує все що є в класі build
     pass 
+    #тут можна додавати додаткову характеристику до класу 
 
 class shop(build):                    #клас school спадковує все що є в класі build
     pass 
+    #тут можна додавати додаткову характеристику до класу 
+
 
 school = school(1999, 'Lviv')
 house = house(2001, "New York")

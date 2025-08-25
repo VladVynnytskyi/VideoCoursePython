@@ -16,6 +16,11 @@ class build:
 class school(build):                    #клас school спадковує все що є в класі build
     pass 
 
+class house(build):                    #клас school спадковує все що є в класі build
+    pass 
+
+class shop(build):                    #клас school спадковує все що є в класі build
+    pass 
 
 school = build(1999, 'Lviv')
 house = build(2001, "New York")
